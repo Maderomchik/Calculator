@@ -4,23 +4,24 @@
 
 body {
     background-color: bisque;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
     padding-top: 30px;
 }
 
 .сalculator {
     background-color: rgb(148, 118, 118);
-    max-width: 330px;
-    height: 380px;
+    max-width: 264px;
+    height:380px;
     margin: 0 auto;
-    border: 3px solid rgb(79, 56, 131);
+    border: 2px solid rgb(79, 56, 131);
     border-radius: 10px;
 }
 
 .key-button {
     display: inline-block;
-    width: 60px;
-    height: 50px;
+    margin: 1px;
+    width: 50px;
+    height: 55px;
     line-height: 50px; 
     font-size: 20px; 
     text-align: center;
@@ -28,7 +29,7 @@ body {
     text-shadow: 0 1px rgba(255, 255, 255, .2), 0 -1px rgba(0, 0, 0, .8);
     outline: none;
     border: none;
-    border-radius: 100px;
+    border-radius: 0px;
     background: rgb(28, 107, 114) radial-gradient(150% 100% at 50% 5px, rgba(255, 255, 255, .2), rgba(0, 0, 0, 0));
     box-shadow: inset rgba(0, 0, 0, .6) 0 -2px 5px, inset rgba(252, 255, 255, .7) 0 2px 5px, rgba(0, 0, 0, .8) 0 2px 5px -1px;
     color: rgb(0, 79, 86);
@@ -41,7 +42,7 @@ body {
 }
 
 .key-button:active {
-    padding-bottom: 1px;
+    padding-bottom: 2px;
     box-shadow:
         inset rgba(0, 0, 0, 1) 0 1px 3px,
         inset rgba(0, 0, 0, .6) 0 -2px 5px,
@@ -59,14 +60,14 @@ body {
     width: 100%;
     border-bottom: 7px solid rgba(172, 22, 22, 0.322);
     text-align: right;
-    font-size: 40px;
+    font-size: 50px;
         }
 .calculator-button {
     padding: 20px;
-    display: grid;
+    /* display: grid; */
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 40px;
 }
 .table {
     color: rgb(0, 0, 0);
